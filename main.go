@@ -6,6 +6,7 @@ func main() {
 	fmt.Println("Hello world")
 	login()
 	updatepassword()
+	forgetpassword()
 }
 
 func login() {
@@ -14,4 +15,8 @@ func login() {
 
 func updatepassword() {
 	fmt.Println("Update Password")
+}
+
+func forgetpassword() {
+	fmt.Println("forget password")
 }
