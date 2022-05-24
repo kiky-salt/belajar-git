@@ -5,18 +5,18 @@ import "fmt"
 func main() {
 	fmt.Println("Hello world")
 	login()
-	updatepassword()
-	forgetpassword()
+	updatePassword()
+	forgetPassword()
 }
 
 func login() {
 	fmt.Println("Login")
 }
 
-func updatepassword() {
+func updatePassword() {
 	fmt.Println("Update Password")
 }
 
-func forgetpassword() {
+func forgetPassword() {
 	fmt.Println("forget password")
 }
